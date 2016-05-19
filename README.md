@@ -3,7 +3,7 @@
 README
 
 Barata Noguera
-Acty Garzón
+Osorio Garzón
 Oso Benavides
 Boku Cortés
 
