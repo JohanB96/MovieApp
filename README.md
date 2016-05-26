@@ -2,9 +2,9 @@
 
 README
 
-Barata Noguera
-Osorio Garzón
-Oso Benavides
-Boku Cortés
+Jhonatan Noguera
+Johan Garzón
+Johan Benavides
+Andres Cortés
 
 Aplicación de peliculas basado en la Api TheMovieDB
