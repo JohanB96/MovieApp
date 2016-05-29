@@ -38,10 +38,9 @@ foreach ($gustos as $gustoId) {
 $entityManager->persist($user);
 $entityManager->flush();
 
-    $id = 1;
-$usuarios = $entityManager->find("Usuario",$id);
-echo count($usuarios);
-foreach ($usuarios as $bug) {
-    echo $bug->getId() . " - \n";
+$usuarios = $entityManager->getRepository("Usuario")->findAll();
+echo "Cantidad de usuarios ".count($usuarios)."\n";
+foreach ($usuarios as $user) {
+    echo "Usuarios ".$user->getId() . " - ".$user->getNombre()."\n";
 }
 */
