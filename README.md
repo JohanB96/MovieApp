@@ -1,5 +1,4 @@
-# MovieShell
-
+# MovieApp
 README
 
 Jhonatan Noguera
